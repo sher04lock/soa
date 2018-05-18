@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosService", "CosmosService\CosmosService.csproj", "{0F21697B-78D8-4B05-B90C-A98A2622910A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceYDTO", "SpaceYDTO\SpaceYDTO.csproj", "{D469BDCD-0BEE-4E4F-BA05-BA3839D18F85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F21697B-78D8-4B05-B90C-A98A2622910A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F21697B-78D8-4B05-B90C-A98A2622910A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F21697B-78D8-4B05-B90C-A98A2622910A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F21697B-78D8-4B05-B90C-A98A2622910A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D469BDCD-0BEE-4E4F-BA05-BA3839D18F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D469BDCD-0BEE-4E4F-BA05-BA3839D18F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D469BDCD-0BEE-4E4F-BA05-BA3839D18F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D469BDCD-0BEE-4E4F-BA05-BA3839D18F85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27EA5CED-9AEC-495C-96B5-AE80755C3FEF}
+	EndGlobalSection
+EndGlobal
