@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0fc44485-8391-4b00-9eb0-4d980ea1f4b8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/WCFServices/MoviesWCFService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="427b2edc-60a5-40e1-877e-097fbb64c6ca" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFServices/MoviesWCFService/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="7da86a61-1106-4e03-84f5-42f80fa0d23f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFServices/MoviesWCFService/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="5a35ee8d-7a55-4488-8f2b-8295beac14f6" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFServices/MoviesWCFService/?xsd=xsd0" />
+    <MetadataFile FileName="MoviesWCFService.wsdl" MetadataType="Wsdl" ID="47b71d1a-bc62-41f5-8372-12990d7b380b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFServices/MoviesWCFService/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="3cb231bd-eeef-4a48-b7ea-ba5ff31cc5ae" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFServices/MoviesWCFService/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
