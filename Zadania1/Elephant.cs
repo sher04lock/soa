@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zadania1
 {
-    class Elephant : Animal
+    public class Elephant : Animal
     {
         public override int CountLegs()
         {

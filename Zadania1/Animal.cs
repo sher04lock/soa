@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Zadania1
 {
-    abstract class Animal
+    abstract public class Animal
     {
-        string Name;
+        public string Name;
         float Weight;
         bool hasFur;
+
+        public Animal(string Name = "John Doe")
+        {
+            this.Name = Name;
+        }
 
         public abstract string Sound();
         public abstract string Trick();

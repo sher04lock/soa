@@ -6,9 +6,22 @@ using System.Threading.Tasks;
 
 namespace Zadania1
 {
-    class Zoo
+    public class Zoo : IZoo
     {
-        List<Animal> Animals;
-        string Name;
+        public List<Animal> Animals;
+        public string Name;
+
+        public Zoo(string Name, List<Animal> Animals)
+        {
+            this.Name = Name;
+            this.Animals = Animals;
+        }
+
+        public string Sounds()
+        {
+            return Animals
+                 .Select(x => x.Sound())
+                 .Aggregate((a, b) => a + ", " + b);
+        }
     }
 }

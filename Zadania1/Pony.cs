@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zadania1
 {
-    class Pony : Animal
+    public class Pony : Animal
     {
         bool isMagic;
 

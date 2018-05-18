@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Zadania1
 {
-    class Cat : Animal
+    public class Cat : Animal
     {
         string Color;
+
+        public Cat(string Name = "Garfield") : base(Name) { }
 
         public override int CountLegs()
         {

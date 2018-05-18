@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace Zadania1
 {
-    class Circus : ICircus
+    public class Circus : ICircus
     {
-        List<Animal> Animals;
-        string Name;
+        public List<Animal> Animals;
+        public string Name;
+
+        public Circus(List<Animal> Animals)
+        {
+            this.Animals = Animals;
+        }
 
         public string AnimalIntroduction()
         {
@@ -20,12 +25,16 @@ namespace Zadania1
 
         public int Patter(int howMuch)
         {
-            throw new NotImplementedException();
+            return Animals
+                .Select(x => x.CountLegs() * howMuch)
+                .Sum();
         }
 
         public string Show()
         {
-            throw new NotImplementedException();
+            return Animals
+                .Select(x => x.Trick())
+                .Aggregate((a, b) => a + ", " + b);
         }
     }
 }

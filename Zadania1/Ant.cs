@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zadania1
 {
-    class Ant : Animal
+    public class Ant : Animal
     {
         bool isQueen;
   
