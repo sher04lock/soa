@@ -10,6 +10,12 @@ using System.Web.Http.Description;
 
 namespace WebApplication
 {
+
+    public class BookWithoutId
+    {
+        public string Title { get; set; }
+        public string ISBN { get; set; }
+    }
     public class BooksController : ApiController
     {
         private readonly ICRUDRepository<Book> repository = new BookRepository();
@@ -18,6 +24,7 @@ namespace WebApplication
         // GET api/<controller>
         public IEnumerable<Book> Get()
         {
+
             return this.repository.GetAll();
         }
 
