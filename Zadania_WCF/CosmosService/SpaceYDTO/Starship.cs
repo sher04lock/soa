@@ -9,7 +9,7 @@ namespace SpaceYDTO
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Starship" in both code and config file together.
     [DataContract]
-    public class Starship : IStarship
+    public class Starship
     {
         List<Person> crew;
         int gold;

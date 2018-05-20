@@ -8,7 +8,7 @@ using System.Text;
 namespace SpaceYDTO
 {
     [DataContract]
-    public class SpaceSystem : ISpaceSystem
+    public class SpaceSystem
     {
         string name;
         int baseDistance;

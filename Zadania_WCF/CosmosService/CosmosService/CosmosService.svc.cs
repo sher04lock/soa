@@ -30,8 +30,10 @@ namespace CosmosService
             else if (money > 3001 && money <= 10000)
                 shipPower = r.Next(20, 35);
             else if (money > 10000)
-                shipPower = r.Next(35, 60);            else
-                shipPower = r.Next(61, 70);
+                shipPower = r.Next(35, 60);
+            else
+                shipPower = r.Next(61, 70);
+
             return new Starship(crew, shipPower);
         }
 
