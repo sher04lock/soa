@@ -38,6 +38,7 @@ namespace WebApplication
             
             var container = builder.Build();
             config.DependencyResolver = new AutofacWebApiDependencyResolver(container);
+            log4net.Config.XmlConfigurator.Configure();
         }
     }
 }
